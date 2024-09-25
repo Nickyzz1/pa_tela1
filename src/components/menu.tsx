@@ -3,6 +3,7 @@ import Link from "next/link";
 import perfil from '../app/assets/img/perfil-of.png'
 import bg from "../app/assets/img/warriorof1.jpg"
 import {Desc} from './Desc'
+import Carousel from './Carousel'
 
 // interface IMenu =
 // {
@@ -46,8 +47,9 @@ export const Menu = ({op1, op2, op3, op4} :
     return(
         <>
         <div className={style.sd}></div>
-            <div className={style.img}>
+            <div className={style.img}> 
                 <Image className={style.img} src={bg} alt="" />
+                {/* <Carousel/> */}
                 <div className={style.head}>
                     <h1 className={style.title} >MAX</h1>
                     <Image className={style.perfil} src={perfil} alt="" />
