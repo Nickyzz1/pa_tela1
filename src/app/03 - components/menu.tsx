@@ -1,25 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import perfil from '../app/assets/img/perfil-of.png'
-import bg from "../app/assets/img/warriorof1.jpg"
+import bg from "../01 - assets/img/warriorof1.jpg"
+import perfil from "../01 - assets/img/perfil-of.png"
 import {Desc} from './Desc'
-import Carousel from './Carousel'
-
-// interface IMenu =
-// {
-//     op1: String | undefined | null;
-//     op2: String;
-//     op3: String;
-//     op4: String;
-// }
-
-//interfaces podem ser extendidas mas tipos nn
-// tipos podem representar coisa smais coplexas como interceções
-// interface IOutra 
-// {
-//     IMenu[];
-// }
-
+import {Card} from './Card'
 
 export const Menu = ({op1, op2, op3, op4} : 
 {
@@ -69,7 +53,7 @@ export const Menu = ({op1, op2, op3, op4} :
                 <Desc/>
             </div>
             <div className={style.box}>
-                cdwehcdcdhxciudehidchdieuwrcudiewrhcfoew
+               <Card/>
 
             </div>
         </main>

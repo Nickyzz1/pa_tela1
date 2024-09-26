@@ -21,8 +21,8 @@ class Carousel extends Component {
     };
 
     const slides: Slide[] = [
-      { id: 1, title: 'Slide 1', image: '../app/assets/img/warriorof1.jpg' },
-      { id: 2, title: 'Slide 2', image: '../app/assets/img/warrior2.jpg' }
+      { id: 1, title: 'Slide 1', image: '../01 - assets/img/warriorof1.jpg' },
+      { id: 2, title: 'Slide 2', image: '../01 - assets/img/warrior2.jpg' }
     ];
 
     return (

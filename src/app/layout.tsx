@@ -6,21 +6,21 @@ import "./globals.css";
 // import {Roboto} from "next/font/google"
 // import localFont from "next/font/local";
 
-import {Menu} from '@/components/menu'
-import {Footer} from '@/components/footer'
+import {Menu} from './03 - components/menu'
+
 // import {Footer} from '@/components/footer'
 // import {Form} from '@/components/form'
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+// const geistSans = localFont({
+//   src: "./fonts/GeistVF.woff",
+//   variable: "--font-geist-sans",
+//   weight: "100 900",
+// });
+// const geistMono = localFont({
+//   src: "./fonts/GeistMonoVF.woff",
+//   variable: "--font-geist-mono",
+//   weight: "100 900",
+// });
 
 const bg = ({
   src: {},

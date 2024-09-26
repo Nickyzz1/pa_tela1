@@ -1,0 +1,14 @@
+[
+    {
+        "image": "../assets/img/friends.webp",
+        "name": "Friends",
+        "description": "Descrição do item 1",
+        "year": 2021
+    },
+    {
+        "image": "../assets/img/comoeueraantesdevc.jpg",
+        "name": "Como eu era antes de você",
+        "description": "Descrição do item 2",
+        "year": 2022
+    }
+]
