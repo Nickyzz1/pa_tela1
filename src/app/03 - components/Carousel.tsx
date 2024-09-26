@@ -1,4 +1,3 @@
-// components/Carousel.tsx
 "use client";
 
 import React, { Component } from 'react';

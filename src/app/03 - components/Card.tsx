@@ -1,27 +1,18 @@
-import Image from "next/image";
-import Link from "next/link";
+import seriesData from '../00 - constants/series.json'; 
 
+const Card = () => {
+    const items = seriesData; 
 
-export const Card = ({} : 
-{
-    
-}
-
-) =>{
-    const style = 
-    {
-        card:"bg-white",
-    }
-
-    
-    return(
-        <>
-        for(int i = 0;)
-       
-        <div className={style.card}>
-            <img src="" alt="" />
+    return (
+        <div>
+            {items.map((item) => (
+                <div key={item.name}>
+                    <img src={item.image} alt={item.name} />
+                    <h2>{item.name}</h2>
+                    <p>{item.description}</p>
+                    <p>{item.year}</p>
+                </div>
+            ))}
         </div>
-
-        </>
     );
-}
+};

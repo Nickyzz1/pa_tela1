@@ -3,7 +3,7 @@ import Link from "next/link";
 import bg from "../01 - assets/img/warriorof1.jpg"
 import perfil from "../01 - assets/img/perfil-of.png"
 import {Desc} from './Desc'
-import {Card} from './Card'
+import Card from './Card'
 
 export const Menu = ({op1, op2, op3, op4} : 
 {
